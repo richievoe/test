@@ -1,0 +1,6 @@
+{
+  "name": "Test",
+  "tagline": "test",
+  "body": "## HCZ Material theme\r\n\r\nThis is a simple personal material theme, best suited for personal authors, programmars, bloggers. \r\n\r\n### Demo\r\n* [http://aboutashu.com/hcz-jekyll-blog](http://aboutashu.com/hcz-jekyll-blog/)\r\n\r\n#### Feature\r\n\r\n* Sitemap and XML Feed\r\n* Projects and tags\r\n* Paginations in homepage\r\n* Posts under category\r\n* Related Posts\r\n* Highlight pre\r\n* Next & Previous Post\r\n* Disqus comment\r\n\r\n#### Screenshot\r\n\r\n![Screenshot Home Page](https://raw.githubusercontent.com/ashutosh2k12/jekyllthemes/master/thumbnails/hcz-material.png  \"Screenshot Home Page\")\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
