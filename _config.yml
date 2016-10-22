@@ -1,26 +1,52 @@
-title: John Smith
-description: My Personal Blog
-author: John Smith
-logo: /hcz-jekyll-blog/static/img/avatar.png
-github: https://github.com/ashutosh2k12
-about: Freelance developer
+# user variables, change this to make custom site.
 
-baseurl: "http://aboutashu.com/hcz-jekyll-blog"
-url: "http://aboutashu.com/hcz-jekyll-blog"
+name: Lemma
+desc: Yet another simple theme for Jekyll.
+author:
+  name: neizod
+  avatar: //gravatar.com/avatar/daa1cc36ed2ab0d13045d5cd2431cde9?s=320
+  profile: |
+    Just another ordinary grad student in computer engineering.
+    I'm interest in programming language, algorithm, and mathematics.
 
-disqus_shortname: aboutashu
-google_analytics: UA-72862926-1
+    I live in Chiang Mai or Bangkok, Thailand.
+    And you may found me around BarCamp event ;D
+  socials:
+    facebook:
+    twitter: //twitter.com/neizod
+    google-plus:
+    github: //github.com/neizod
+    stack-overflow: //stackoverflow.com/users/889578/neizod
+    instagram:
+    pinterest:
+    steam: //steamcommunity.com/id/neizod/
+license: MIT License
 
-share:
-  twitter_username: \#
-  fb_appid: 000000000000
+
+# theme variables, change this to make site looks best.
+baseurl: /lemma-theme
+paginate: 2
 
 
-enableTags: true
-tagarray: []
+# system variables, do not change unless you knew what's it does.
+paginate_path: page/:num
+highlighter: pygments
+markdown: redcarpet
+redcarpet:
+  extensions: ["tables"]
 
-paginate: 20
-per_page: 20
-paginate_path: "/page:num/"
-markdown: kramdown
-gems: [jekyll-paginate, jekyll-gist]
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+sass:
+  sass_dir: _sass
+  style: compressed
